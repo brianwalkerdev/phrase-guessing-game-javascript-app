@@ -1,154 +1,104 @@
 # Wheel of Success
 
-An interactive browser-based word guessing game where players reveal hidden phrases by guessing letters. Built with vanilla JavaScript, HTML5, and CSS3.
-
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://brianwalkerdev.github.io/game-show-web-app)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+A fun, interactive word-guessing game built with vanilla JavaScript. Players reveal hidden phrases by guessing letters before running out of lives.
 
 ![Wheel of Success - Project Thumbnail](screenshots/thumbnail.png)
 
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://brianwalkerdev.github.io/phrase-guessing-game-javascript-app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 ## 🎮 Live Demo
 
-**[Play the Game →](https://brianwalkerdev.github.io/game-show-web-app)**
+**[Play Now →](https://brianwalkerdev.github.io/phrase-guessing-game-javascript-app)**
 
 ## ✨ Features
 
-- **Random Phrase Selection** - Each game features a different hidden phrase
-- **Interactive On-Screen Keyboard** - Click letters or use your keyboard
-- **Visual Feedback** - Instant visual response for correct and incorrect guesses
-- **Lives System** - 5 chances to guess the phrase
-- **Responsive Design** - Works seamlessly on desktop and mobile devices
-- **Game Reset** - Play again without refreshing the page
-- **Accessibility** - ARIA labels and keyboard navigation support
+- 🎲 Random phrase selection
+- ⌨️ On-screen keyboard + physical keyboard support
+- ❤️ 5-life system with visual feedback
+- 📱 Fully responsive design
+- ♿ Accessibility-friendly with ARIA labels
+- 🔄 Instant game reset
 
 ## 🛠️ Tech Stack
 
 - **HTML5** - Semantic markup
-- **CSS3** - Custom properties, flexbox, transitions
-- **JavaScript (ES6)** - DOM manipulation, event handling, game logic
-- **No frameworks** - Pure vanilla JavaScript
-
-## 📸 Screenshots
-
-![Game Start Screen](screenshots/game-start.png)
-
-![Game In Progress](screenshots/game-in-progress.png)
+- **CSS3** - Custom properties, flexbox, smooth transitions
+- **JavaScript (ES6)** - Pure vanilla JS, no frameworks
+- **Node.js** - Build tooling only
 
 ## 🚀 Installation & Usage
 
-### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/brianwalkerdev/phrase-guessing-game-javascript-app.git
+cd phrase-guessing-game-javascript-app
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/brianwalkerdev/game-show-web-app.git
-   cd game-show-web-app
-   ```
+# Option 1: Open directly in browser
+open index.html
 
-2. **Open in browser**
-   ```bash
-   # Option 1: Open index.html directly in your browser
-   open index.html
+# Option 2: Run local server (requires Python 3)
+npm start
+```
 
-   # Option 2: Use a local server (recommended)
-   npm start
-   ```
-
-   > **Note:** The `npm start` command requires [Python 3](https://www.python.org/downloads/) to be installed on your system. If you don't have Python 3, you can either [install it](https://www.python.org/downloads/) or use another static server (such as [`http-server`](https://www.npmjs.com/package/http-server)), or simply open `index.html` directly in your browser.
-3. **Start playing!**
-   - Click letters to guess
-   - Or use your keyboard to type letters
-   - Try to reveal the phrase before running out of lives
+Then visit `http://localhost:8080` and start playing!
 
 ## 📦 Deployment
 
 ### Build for Production
 
-Generate static files ready for deployment:
-
 ```bash
 npm run build
 ```
 
-This creates a `dist/` folder with all production-ready files.
+This creates a `dist/` folder ready for deployment.
 
-### Deploy to Popular Platforms
+### Deploy Options
 
-#### GitHub Pages
+**GitHub Pages**
 ```bash
-# Push to gh-pages branch
 git subtree push --prefix dist origin gh-pages
 ```
 
-#### Netlify
-1. Drag and drop the `dist/` folder to [Netlify](https://app.netlify.com/drop)
-2. Or connect your GitHub repo for automatic deployments
+**Netlify**
+- Drag and drop the `dist/` folder to [Netlify Drop](https://app.netlify.com/drop)
+- Or connect your repo for continuous deployment
 
-#### Vercel
+**Vercel**
 ```bash
 vercel --prod
 ```
 
-The app is a static site with no build dependencies, making deployment simple on any hosting platform.
-
-## 🎯 Learning Outcomes
-
-This project demonstrates:
-- DOM manipulation and traversal
-- Event-driven programming
-- Game state management
-- Dynamic UI updates
-- Responsive CSS design
-- Accessibility best practices
+The project is a static site with zero dependencies—easy to host anywhere!
 
 ## 📁 Project Structure
 
 ```
-game-show-web-app/
+phrase-guessing-game-javascript-app/
 ├── index.html          # Main HTML file
-├── css/
+├── css/                # Stylesheets
 │   ├── styles.css      # Custom styles
 │   └── normalize.css   # CSS reset
-├── js/
-│   └── main.js         # Game logic
-├── images/
-│   ├── liveHeart.png   # Lives indicator (active)
-│   └── lostHeart.png   # Lives indicator (lost)
-├── screenshots/
-│   ├── thumbnail.png   # Project thumbnail
-│   ├── game-start.png  # Game start screen
-│   └── game-in-progress.png  # Gameplay screenshot
-├── scripts/
-│   └── build.js        # Build script for deployment
-├── package.json        # Project metadata
-├── LICENSE             # MIT License
-└── README.md           # This file
+├── js/                 # Game logic
+│   └── main.js         # Core JavaScript
+├── images/             # Game assets
+├── screenshots/        # Project thumbnails
+├── scripts/            # Build script
+└── package.json        # Project metadata
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
-## 👤 Author
+## 👤 Contact
 
-**Brian Walker**
+**Brian Walker** - Entry-Level Developer
 
-- Website: [brianwalker.dev](https://brianwalker.dev)
-- Twitter: [@brianwalkerdev](https://twitter.com/brianwalkerdev)
+- Portfolio: [brianwalker.dev](https://brianwalker.dev)
 - GitHub: [@brianwalkerdev](https://github.com/brianwalkerdev)
-
-## 🙏 Acknowledgments
-
-- Inspired by classic word guessing games
-- Built as part of a JavaScript learning path
-- Designed with accessibility and user experience in mind
+- Email: [brian@brianwalker.dev](mailto:brian@brianwalker.dev)
 
 ---
 
-⭐ Star this repo if you found it helpful!
+⭐ **Star this repo if you found it helpful!**

@@ -1,5 +1,5 @@
 {
-  "name": "game-show-web-app",
+  "name": "phrase-guessing-game-javascript-app",
   "version": "1.0.0",
   "description": "An engaging browser-based word guessing game built with HTML, CSS, and JavaScript. Players reveal hidden phrases by guessing letters with 5 lives. Features interactive keyboard, responsive design, and dynamic gameplay.",
   "main": "index.html",
@@ -28,11 +28,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brianwalkerdev/game-show-web-app.git"
+    "url": "https://github.com/brianwalkerdev/phrase-guessing-game-javascript-app.git"
   },
   "bugs": {
-    "url": "https://github.com/brianwalkerdev/game-show-web-app/issues"
+    "url": "https://github.com/brianwalkerdev/phrase-guessing-game-javascript-app/issues"
   },
-  "homepage": "https://brianwalkerdev.github.io/game-show-web-app",
+  "homepage": "https://brianwalkerdev.github.io/phrase-guessing-game-javascript-app",
   "license": "MIT"
 }
