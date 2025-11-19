@@ -37,16 +37,12 @@ function getRandomPhraseAsArray(arr) {
  */
 function addPhraseToDisplay(arr) {
   const phraseUl = document.querySelector("#phrase ul");
-  for (let i = 0; i < arr.length; i++) {
+  arr.forEach(char => {
     const li = document.createElement("li");
-    li.textContent = arr[i];
-    if (arr[i] === " ") {
-      li.className = "space";
-    } else {
-      li.className = "letter";
-    }
+    li.textContent = char;
+    li.className = char === " " ? "space" : "letter";
     phraseUl.appendChild(li);
-  }
+  });
 }
 
 /**
@@ -56,14 +52,16 @@ function addPhraseToDisplay(arr) {
  */
 function checkLetter(button) {
   const letter = button.textContent;
-  const letterList = document.querySelectorAll(".letter");
+  const letterElements = document.querySelectorAll(".letter");
   let match = null;
-  for (let i = 0; i < letterList.length; i++) {
-    if (letterList[i].textContent === letter) {
-      letterList[i].classList.add("show");
+  
+  letterElements.forEach(letterEl => {
+    if (letterEl.textContent === letter) {
+      letterEl.classList.add("show");
       match = letter;
     }
-  }
+  });
+  
   return match;
 }
 
