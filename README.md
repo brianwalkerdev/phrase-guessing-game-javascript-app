@@ -9,7 +9,7 @@ A fun, interactive word-guessing game built with vanilla JavaScript. Players rev
 
 ## 🎮 Live Demo
 
-**[Play Now →](https://brianwalkerdev.github.io/phrase-guessing-game-javascript-app)**
+**[Play Now →](https://projects.brianwalker.dev/phrase-guessing-game-javascript-app)**
 
 ## ✨ Features
 
