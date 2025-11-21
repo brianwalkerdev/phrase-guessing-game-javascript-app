@@ -4,7 +4,7 @@ A fun, interactive word-guessing game built with vanilla JavaScript. Players rev
 
 ![Wheel of Success - Project Thumbnail](screenshots/thumbnail.png)
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://brianwalkerdev.github.io/phrase-guessing-game-javascript-app)
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://projects.brianwalker.dev/phrase-guessing-game-javascript-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## 🎮 Live Demo
